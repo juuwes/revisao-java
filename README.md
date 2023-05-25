@@ -18,3 +18,8 @@ Neste repositório está o conteúdo de Revisão de Conceitos e Orientação a O
 🔹 **ProgramOrder:** Enumerações
   
 ![image](https://github.com/juuwes/revisao-java/assets/93749428/54a114f9-4572-464d-8800-1bfb37041547)
+  
+🔹 **Projeto- Worker:** Composições
+  
+![image](https://github.com/juuwes/revisao-java/assets/93749428/03d44dc6-7b4f-4790-a582-9d0f068d05b2)
+
