@@ -10,8 +10,11 @@ Neste repositório está o conteúdo de Revisão de Conceitos e Orientação a O
 ✅ **RevisaoPoo:** Projetos focados em Programação Orientada Objetos.
   
 🔹 **ProgramAccount:** Construtores, Encapsulamento, Métodos _gettes_ e _setters_
-
-<div align="left">
-<img  width="250" src="https://github.com/juuwes/revisao-java/assets/93749428/e15825d8-0310-455e-bfa6-7e10053c5907"> </div>
+  
+![image](https://github.com/juuwes/revisao-java/assets/93749428/a4bc8b67-ff67-4d56-98f9-55b4bfcb29a9)
   
 🔹 **ProgramAccount:** [+] Vetores
+
+🔹 **ProgramOrder:** Enumerações
+  
+![image](https://github.com/juuwes/revisao-java/assets/93749428/54a114f9-4572-464d-8800-1bfb37041547)
