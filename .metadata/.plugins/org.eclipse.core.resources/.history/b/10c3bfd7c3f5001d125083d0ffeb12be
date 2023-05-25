@@ -1,0 +1,57 @@
+package applications;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entitites.EmployeeExercicioLista;
+
+public class ExercicioLista {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		List<EmployeeExercicioLista> lista = new ArrayList<>();
+
+		System.out.print("How many employees will be registered? ");
+		int n = sc.nextInt();
+
+		for (int i = 0; i < n; i++) {
+			System.out.println("Employee #" + (i + 1) + ":");
+
+			System.out.print("Id: ");
+			Integer id = sc.nextInt();
+			System.out.print("Nome: ");
+			sc.nextLine();
+			String nome = sc.nextLine();
+			System.out.print("Salary: ");
+			Double salary = sc.nextDouble();
+
+			// objeto instanciado
+			EmployeeExercicioLista emp = new EmployeeExercicioLista(id, nome, salary);
+			lista.add(emp);
+		}
+
+		for (int i = 0; i < n; i++) {
+
+			System.out.print("Enter the employee id that will have salary increase: ");
+			Integer id = sc.nextInt();
+			lista.indexOf(id);
+
+			EmployeeExercicioLista sal = new EmployeeExercicioLista();
+
+			System.out.print("Enter the employee id that will have salary increase: ");
+			Double percentage = sc.nextDouble();
+			sal.increaseSalary(percentage);
+		}
+		
+		for (EmployeeExercicioLista list : lista) {
+			System.out.println(list);
+		}
+
+		sc.close();
+	}
+
+}

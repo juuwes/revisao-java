@@ -1,0 +1,11 @@
+package applications;
+
+import java.time.LocalDate;
+
+public class DataJava8 {
+	
+	LocalDate d01 = LocalDate.now();
+	System.out.println(d01);
+	
+
+}

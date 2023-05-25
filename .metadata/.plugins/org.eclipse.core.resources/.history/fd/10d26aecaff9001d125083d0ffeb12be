@@ -1,0 +1,16 @@
+package applications;
+
+import java.time.LocalDate;
+
+public class DataJava8 {
+	public static void main(String[] args) {
+		
+		LocalDate d01 = LocalDate.now(); //instanciação de Data-hora local
+		System.out.println(d01);
+
+		
+	}
+	
+		
+
+}

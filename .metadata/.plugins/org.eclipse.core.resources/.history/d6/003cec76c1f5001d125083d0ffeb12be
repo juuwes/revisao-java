@@ -1,0 +1,41 @@
+package applications;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entitites.EmployeeExercicioLista;
+
+public class ExercicioLista {
+	
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		List<EmployeeExercicioLista> lista = new ArrayList<>();
+		
+		System.out.print("How many employees will be registered? ");
+		Integer n = sc.nextInt();
+		
+		while (n <= n) {
+			System.out.println("Employee #" + n + ": ");
+			System.out.print("Id: ");
+			Integer id = sc.nextInt();
+			System.out.print("Name: ");
+			String name = sc.nextLine();
+			System.out.print("Salary: ");
+			Double salary = sc.nextDouble();
+			
+			(List<EmployeeExercicioLista>) = new EmployeeExercicioLista(id, name, salary);
+					
+			lista.add(id);
+			lista.add(name);
+			lista.add(salary);
+		}
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,37 @@
+package applications;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class DataJava8 {
+	public static void main(String[] args) {
+
+		LocalDate d01 = LocalDate.now(); // instanciação de Data-hora local (sem horario)
+		LocalDateTime d02 = LocalDateTime.now(); // instancia de Data-hora local (com horario) .(fração de segundos)
+		System.out.println("Sem Horario: " + d01);
+		System.out.println("Com Horario: " + d02);
+
+		System.out.println("--------------------------------------------------------");
+
+		Instant d03 = Instant.now(); // instanciação da Data-hora global GMT (Londres).
+		System.out.println("Data-hora global: " + d03);
+
+		System.out.println("--------------------------------------------------------");
+		// implicitamente é chamado o toString() dos objetos criados.
+		LocalDate d04 = LocalDate.parse("2022-07-20"); // texto ISO 8601 metodo estatico (parse) - texto representando
+														// uma data.
+		System.out.println("Cria um objeto a partir do texto ISO: " + d04);
+		LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+		System.out.println("Objeto a partir do texto ISO - com horario: " + d05);
+
+		System.out.println("--------------------------------------------------------");
+		Instant d06 = Instant.parse("2022-07-20T01:30:26Z"); // Criar no padrão UTC (Londres)
+		System.out.println("Objeto a partir do texto ISO - Zulu Time: " + d06);
+		
+		Instant d07 = Instant.parse("2022-07-20T01:30:26-03:00"); // Criar no padrão São Paulo.
+		System.out.println("Objeto a partir do texto ISO - SP: " + d07);
+
+	}
+
+}

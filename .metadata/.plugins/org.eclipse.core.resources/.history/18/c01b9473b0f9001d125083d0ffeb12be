@@ -1,0 +1,27 @@
+package applications;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class DataJava8 {
+	public static void main(String[] args) {
+		
+		LocalDate d01 = LocalDate.now(); //instanciação de Data-hora local (sem horario)
+		LocalDateTime d02 = LocalDateTime.now(); //instancia de Data-hora local (com horario) .(fração de segundos)
+		System.out.println("Sem Horario: " + d01);
+		System.out.println("Com Horario: " + d02);
+		
+		System.out.println("--------------------------------------------------------");
+		
+		Instant d03 = Instant.now(); //instanciação da Data-hora global GMT (Londres).
+		System.out.println("Data-hora global: " + d03);
+		
+		System.out.println("--------------------------------------------------------");
+
+		
+	}
+	
+		
+
+}
