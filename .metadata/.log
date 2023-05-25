@@ -916,3 +916,6 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-05-25 16:58:30.831
 !MESSAGE Classpath changed for project: Projeto-Worker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-05-25 17:08:49.782
+!MESSAGE Classpath changed for project: Projeto-Worker
