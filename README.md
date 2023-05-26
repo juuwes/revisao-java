@@ -15,7 +15,7 @@ Neste repositório está o conteúdo de Revisão de Conceitos e Orientação a O
 
 🔹 **ProgramAccount:** [+] Vetores
 
-🔹 **ProgramOrder:** Enumerações
+🔹 **ProgramOrder:** Enumerações (_enums_)
   
 ![image](https://github.com/juuwes/revisao-java/assets/93749428/43d88640-f7b6-4644-9271-d01b803491df)
   
