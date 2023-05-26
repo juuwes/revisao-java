@@ -11,15 +11,15 @@ Neste repositório está o conteúdo de Revisão de Conceitos e Orientação a O
   
 🔹 **ProgramAccount:** Construtores, Encapsulamento, Métodos _gettes_ e _setters_
   
-![image](https://github.com/juuwes/revisao-java/assets/93749428/a4bc8b67-ff67-4d56-98f9-55b4bfcb29a9)
-  
+![image](https://github.com/juuwes/revisao-java/assets/93749428/005b2bb4-f3d5-4950-9289-0f6776e38624)
+
 🔹 **ProgramAccount:** [+] Vetores
 
 🔹 **ProgramOrder:** Enumerações
   
-![image](https://github.com/juuwes/revisao-java/assets/93749428/54a114f9-4572-464d-8800-1bfb37041547)
+![image](https://github.com/juuwes/revisao-java/assets/93749428/5d890d34-6fe6-4d36-a2e0-1fc862feba47)
   
 🔹 **Projeto- Worker:** Composições
   
-![image](https://github.com/juuwes/revisao-java/assets/93749428/03d44dc6-7b4f-4790-a582-9d0f068d05b2)
+![image](https://github.com/juuwes/revisao-java/assets/93749428/f0e8565d-62b8-4fd0-a079-37cca9a772a3)
 
